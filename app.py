@@ -100,7 +100,7 @@ if uploaded_file is not None:
             tooltip=['Sumber:N', 'Jumlah:Q']  # Tooltip
         ).properties(
             title='Jumlah Customer dengan Transisi <5 Hari dari Leads ke Booking',  # Judul chart
-            width=1000,  # Lebar chart
+            width=900,  # Lebar chart
             height=650  # Tinggi chart
         ).interactive()
 
@@ -124,7 +124,7 @@ if uploaded_file is not None:
             tooltip=['Sumber:N', 'Jumlah:Q']  # Tooltip
         ).properties(
             title='Jumlah Customer dengan Transisi 5-10 Hari dari Leads ke Booking',  # Judul chart
-            width=1000,  # Lebar chart
+            width=900,  # Lebar chart
             height=650  # Tinggi chart
         ).interactive()
 
@@ -148,7 +148,7 @@ if uploaded_file is not None:
             tooltip=['Sumber:N', 'Jumlah:Q']  # Tooltip
         ).properties(
             title='Jumlah Customer dengan Transisi >10 Hari dari Leads ke Booking',  # Judul chart
-            width=1000,  # Lebar chart
+            width=900,  # Lebar chart
             height=650  # Tinggi chart
         ).interactive()
 
@@ -210,7 +210,7 @@ if uploaded_file is not None:
             tooltip=['Sumber:N', 'Jumlah:Q']  # Tooltip
         ).properties(
             title='Jumlah Sumber Yang Menarik Customer Untuk Mengisi Leads Saat Weekday',  # Judul chart
-            width=1000,  # Lebar chart
+            width=900,  # Lebar chart
             height=650  # Tinggi chart
         ).interactive()  # Menambahkan interaktivitas jika diperlukan
 
@@ -234,7 +234,7 @@ if uploaded_file is not None:
             tooltip=['Sumber:N', 'Jumlah:Q']  # Tooltip
         ).properties(
             title='Jumlah Sumber Yang Menarik Customer Untuk Mengisi Leads Saat Weekend',  # Judul chart
-            width=1000,  # Lebar chart
+            width=900,  # Lebar chart
             height=650  # Tinggi chart
         ).interactive()  # Menambahkan interaktivitas jika diperlukan
 
@@ -275,7 +275,7 @@ if uploaded_file is not None:
             tooltip=['Sumber:N', 'Jumlah:Q']  # Tooltip
         ).properties(
             title='Jumlah Sumber Yang Menarik Customer Untuk Booking Saat Weekday',  # Judul chart
-            width=1000,  # Lebar chart
+            width=900,  # Lebar chart
             height=650  # Tinggi chart
         ).interactive()  # Menambahkan interaktivitas jika diperlukan
 
@@ -299,7 +299,7 @@ if uploaded_file is not None:
             tooltip=['Sumber:N', 'Jumlah:Q']  # Tooltip
         ).properties(
             title='Jumlah Sumber Yang Menarik Customer Untuk Booking Saat Weekend',  # Judul chart
-            width=1000,  # Lebar chart
+            width=900,  # Lebar chart
             height=650  # Tinggi chart
         ).interactive()  # Menambahkan interaktivitas jika diperlukan
 
