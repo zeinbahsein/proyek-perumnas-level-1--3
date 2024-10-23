@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 
+# Judul Aplikasi
+st.title("Analisa Success Rate Booking period Maret - Oktober")
+
 # Upload file CSV dari komputer
 uploaded_file = st.file_uploader("Pilih file CSV", type="csv")
 
